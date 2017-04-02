@@ -1,0 +1,16 @@
+{
+  "name": "test-lambda1",
+  "version": "1.0.0",
+  "description": "Lambda Test1",
+  "main": "test-lambda1.js",
+  "scripts": {
+    "create-lambda1": "claudia create --name test-lambda1 --region ap-southeast-2 --handler test-lambda1.handler --role test-lambda1-executor --config claudia1.json",
+    "create-lambda2": "claudia create --name test-lambda2 --region ap-southeast-2 --handler test-lambda2.handler --role test-lambda1-executor --config claudia2.json",
+    "update-lambda1": "claudia update --config claudia1.json",
+    "update-lambda2": "claudia update --config claudia2.json",
+    "test-lambda1": "claudia test-lambda --config claudia1.json",
+    "test-lambda2": "claudia test-lambda --config claudia2.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "test-lambda1-executor",
+    "name": "test-lambda2",
+    "region": "ap-southeast-2"
+  }
+}
